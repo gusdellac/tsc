@@ -1,0 +1,1 @@
+const usuario: { id: number; nombre: string } = { id: 1, nombre: "Ana" };
