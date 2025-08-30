@@ -1,3 +1,3 @@
-class Persona1 {
+class Persona2 {
   constructor(public nombre: string, public edad: number) {}
 }

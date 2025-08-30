@@ -1,5 +1,5 @@
 // Intersection Types (&)
 type A = { nombre: string };
 type B = { edad: number };
-type Persona = A & B;
-let p: Persona = { nombre: "Ana", edad: 25 };
+type Persona1 = A & B;
+let p: Persona1 = { nombre: "Ana", edad: 25 };
