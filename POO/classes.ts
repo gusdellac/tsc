@@ -11,10 +11,10 @@
 
 
 class Persona {
-  public nombre:string;
-  private edad:number;
-  protected ciudad:string;
-  readonly id:number;
+  public nombre:string; // Acceso desde cualquier lugar → dentro de la clase, en clases hijas y desde fuera
+  private edad:number; // Acceso solo dentro de la misma clase
+  protected ciudad:string; // Acceso dentro de la clase y en clases hijas, pero no desde fuera
+  readonly id:number; // Marca una propiedad como inmutable, solo lectura
 
   constructor(nombre:string, edad:number, ciudad:string, id:number){
     this.nombre = nombre;
